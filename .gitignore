@@ -1,0 +1,58 @@
+node_modules/
+
+# testing
+coverage/
+
+# production
+build/
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+/react-app/.DS_Store
+/react-app/.env.local
+/react-app/.env.development.local
+/react-app/.env.test.local
+/react-app/.env.production.local
+
+/react-app/npm-debug.log*
+/react-app/yarn-debug.log*
+/react-app/yarn-error.log*
+
+/backend/*.swp
+*.*~
+/backend/project.lock.json
+/backend/.DS_Store
+/backend/*.pyc
+
+# Visual Studio Code
+.vscode
+
+# User-specific files
+/backend/*.suo
+/backend/*.user
+/backend/*.userosscache
+/backend/*.sln.docstates
+
+# Build results
+/backend/[Dd]ebug/
+/backend/[Dd]ebugPublic/
+/backend/[Rr]elease/
+/backend/[Rr]eleases/
+/backend/x64/
+/backend/x86/
+/backend/build/
+/backend/bld/
+/backend/[Bb]in/
+/backend/[Oo]bj/
+/backend/msbuild.log
+/backend/msbuild.err
+/backend/msbuild.wrn
